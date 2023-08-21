@@ -87,6 +87,42 @@ const ViewMovie = () => {
                 <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt0388629" frameborder="0"></iframe>
             </div>
         }
+        {movieData && movieData.name === "Special Ops: Lioness" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt13111078" frameborder="0"></iframe>
+            </div>
+        }
+        {movieData && movieData.name === "無職転生 ～異世界行ったら本気だす～" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt13293588" frameborder="0"></iframe>
+            </div>
+        }
+        {movieData && movieData.name === "Sequestro no Ar" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt19854762" frameborder="0"></iframe>
+            </div>
+        }
+        {movieData && movieData.name === "Shelter" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt15483276" frameborder="0"></iframe>
+            </div>
+        }
+        {movieData && movieData.name === "Homicídios ao Domicílio" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt11691774" frameborder="0"></iframe>
+            </div>
+        }
+        {movieData && movieData.name === "Star Trek: Strange New Worlds" &&
+            <div>
+                <h1>{movieData.name}</h1>
+                <iframe className='videoo' src="https://embed.warezcdn.net/serie/tt12327578" frameborder="0"></iframe>
+            </div>
+        }
         
     </div>
   )
