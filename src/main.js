@@ -9,7 +9,6 @@ import App from "./App";
 function Main() {
   return (
     <div>
-      <h1>jose</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
