@@ -2,15 +2,20 @@ import { useState } from "react";
 
 import "./App.css";
 
-import { Link, Outlet } from "react-router-dom";
+import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
+import ViewMovie from "./components/ViewMovie";
+import App from "./App";
 
 function Main() {
   return (
-    <>
-      <div>
-        <Outlet />
-      </div>
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/viewMovie/:id" element={<ViewMovie />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
