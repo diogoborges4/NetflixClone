@@ -9,9 +9,10 @@ import App from "./App";
 function Main() {
   return (
     <div>
+      <h1>jose</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/app" element={<App />} />
+          <Route path="/" element={<App />} />
           <Route path="/viewMovie/:id" element={<ViewMovie />} />
         </Routes>
       </BrowserRouter>
