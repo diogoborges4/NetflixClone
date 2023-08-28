@@ -11,7 +11,7 @@ function Main() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/app" element={<App />} />
           <Route path="/viewMovie/:id" element={<ViewMovie />} />
         </Routes>
       </BrowserRouter>
